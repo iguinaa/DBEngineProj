@@ -1,0 +1,1 @@
+CREATE DATABASE it; CREATE TABLE testing (col1 INT(3) NOT NULL, col2 CHAR, col3 NUMBER(3,2)); INSERT INTO testing (col1, col2) VALUES (3,'A’); SAVE; 
