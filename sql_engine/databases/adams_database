@@ -1,0 +1,11 @@
+tblNames
+3
+strFirst##VARCHAR##10##0##true
+strLast##VARCHAR##10##0##true
+id##INT##5##0##false
+Fri Jan 15 19:32:56 EST 2016##'Jordan'##NULL##1
+Fri Jan 15 19:33:26 EST 2016##NULL##'Stocks'##2
+Fri Jan 15 19:33:51 EST 2016##'Adam'##'Tillis'##3
+Fri Jan 15 19:34:50 EST 2016##'Oniel'##'Martin'##4
+Fri Jan 15 19:35:12 EST 2016##NULL##NULL##-1
+

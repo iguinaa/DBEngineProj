@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f Project ];
+then
+	java Project &> /dev/null
+else
+	make &> /dev/null
+	java Project
+fi

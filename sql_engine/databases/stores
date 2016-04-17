@@ -1,0 +1,52 @@
+CUST
+6
+CNumber##INT##4##0##true
+Name##VARCHAR##15##0##true
+City##VARCHAR##15##0##true
+State##CHAR##2##0##true
+Zipcode##INT##5##0##true
+isActiveMember##BIT##1##0##true
+Sun Nov 29 17:32:06 EST 2015##1##'Joe'##'Jacksonville'##'FL'##32225##1
+Sun Nov 29 17:32:06 EST 2015##2##'John Davis'##'Tampa'##'FL'##24356##0
+Sun Nov 29 17:32:06 EST 2015##3##'Debrah Jones'##'Boston'##'MA'##02108##1
+Sun Nov 29 17:32:06 EST 2015##5##'Martin Smith'##'Los Angeles'##'CA'##53592##1
+Sun Nov 29 17:36:15 EST 2015##6##'Russel Haris'##'Orlando'##'FL'##32256##0
+
+S
+5
+SNumber##INT##2##0##true
+Name##VARCHAR##15##0##true
+City##VARCHAR##15##0##true
+State##CHAR##2##0##true
+Zipcode##INT##5##0##true
+Sun Nov 29 17:32:06 EST 2015##1##'SupplierA'##'Orlando'##'FL'##34289
+Sun Nov 29 17:32:06 EST 2015##2##'Amazon'##'Miami'##'FL'##39648
+Sun Nov 29 17:32:06 EST 2015##3##'S_32'##'New York'##'NY'##02053
+Sun Nov 29 17:32:06 EST 2015##4##'Supplier-4B'##'Albany'##'NY'##02350
+Sun Nov 29 17:32:06 EST 2015##5##'Big Warehouse'##'Austin'##'TX'##42999
+
+PRODUCT
+4
+PNumber##INT##3##0##true
+SNumber##INT##2##0##true
+Name##VARCHAR##40##0##true
+Price##NUMBER##4##2##true
+Sun Nov 29 17:32:06 EST 2015##1##1##'Fallout 4'##59.99
+Sun Nov 29 17:32:06 EST 2015##2##2##'Xbone'##399.99
+Sun Nov 29 17:32:06 EST 2015##3##5##'Giant Home Theater System'##2999.99
+Sun Nov 29 17:32:06 EST 2015##4##2##'Gum'##1.99
+Sun Nov 29 17:32:06 EST 2015##5##3##'12 Core Processor'##650.00
+
+ORDERS
+5
+SNumber##INT##2##0##true
+PNumber##INT##3##0##true
+CNumber##INT##4##0##true
+Qty##INT##5##0##true
+OrderDate##VARCHAR##30##0##true
+Sun Nov 29 17:32:06 EST 2015##1##1##1##30##'05/05/2015'
+Sun Nov 29 17:32:06 EST 2015##2##2##3##1##'11/01/2015'
+Sun Nov 29 17:32:06 EST 2015##3##2##2##2##'10/30/2015'
+Sun Nov 29 17:32:06 EST 2015##4##2##1##10000##'10/25/2015'
+Sun Nov 29 17:32:06 EST 2015##5##3##3##12##'11/15/2015'
+
